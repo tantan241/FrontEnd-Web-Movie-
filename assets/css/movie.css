@@ -1,0 +1,102 @@
+.app-movie {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color: #191a2e;
+    overflow-y: auto;
+
+}
+.app-movie::-webkit-scrollbar {
+    display: none;
+}
+.app-movie__background {
+    background-image: url("https://image.thanhnien.vn/w660/Uploaded/2022/ygtmjz/2021_07_08/encantoposter_mkbc.jpg");
+    width: 100%;
+    height: 846px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.movie-background__nav {
+    display: flex;
+    justify-content: center;
+    margin-left: -25px;
+  
+
+}
+.movie-background__nav__list {
+    margin-top: 31px;
+    list-style: none;
+    display: flex;
+
+}
+.movie-background__nav__item {
+
+}
+.movie-background__nav__link {
+    font-size: 1.9rem;
+    color: var(--text-color);
+    text-decoration: none;
+    margin-left: 24px;
+}
+.movie-background__content {
+    margin: 224px 890px 176px 70px;
+    color: var(--text-color);
+
+
+}
+.movie-background__heading {
+    font-size: 9.6rem;
+    line-height: 144px;
+
+}
+.movie-background__description {
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+
+}
+.movie-background__btn {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 35px;
+    padding: 15px;
+    background-color: #7D6AFF;
+    width: 202px;
+    border-radius: 4px;
+
+}
+.app-movie__content {
+    margin: 57px 0 0 70px;
+    
+}
+.movie-top {
+    color: var(--text-color);
+}
+.movie-top__heading {
+    font-size: 3.6rem;
+    font-weight: 600;
+    line-height: 2.8rem;
+    margin-bottom: 44px;
+}
+.movie-top__heading span {
+    color: #7D6AFF;
+}
+.movie-top__des {
+    
+    
+}
+.movie-top__des__img {
+    width: 246px;
+    height: 324px;
+}
+.movie-top__des__content {
+    width: 192px;
+    text-align: center;
+    font-size: 1.8rem ;
+    line-height: 2.8rem;
+    margin: 12px 0 82px 27px;
+    
+}

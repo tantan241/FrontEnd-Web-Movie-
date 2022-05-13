@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #ff3d71;
+    --black-color: #333;
+    --text-color: #fff;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Poppins';
+    font-size: 62.5%;
+
+}
+.btn {
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-icon {
+    margin-left: 3px;
+    position: relative;
+    top: 1px;
+}
+.btn-add {
+    background-color: #928e95;
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+    color: var(--text-color);
+}
+.btn-add-icon {
+    margin: auto;
+}

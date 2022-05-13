@@ -1,0 +1,37 @@
+@media (max-width: 1024px)  {
+    .app__content {
+        width: 100%;
+        padding: 10px 16px 50px;
+     }
+    .app__nav {
+        display: none;
+    }
+    .app__right {
+        display: none;
+    }
+    .content-nav-tablet {
+        display: flex;
+    }
+}
+@media (max-width: 1024px) and (min-width: 723px) {
+    .app-tablet__search  {
+        margin-left: 80px;
+    }
+    .content-main__img img{
+        height: 500px;
+    }
+    .heading-transfer__link {
+        width: 40px;
+        height: 40px;  
+    }
+    .heading-transfer__icon {
+        font-size: 1.8rem;
+    }
+    .content-main__year-rate,
+    .content-main__heading {
+        font-size: 1.8rem;
+    }
+}
+@media (max-width: 724px) {
+    
+}
