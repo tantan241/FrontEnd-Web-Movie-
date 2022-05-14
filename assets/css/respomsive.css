@@ -12,14 +12,6 @@
     .content-nav-tablet {
         display: flex;
     }
-}
-@media (max-width: 1024px) and (min-width: 723px) {
-    .app-tablet__search  {
-        margin-left: 80px;
-    }
-    .content-main__img img{
-        height: 500px;
-    }
     .heading-transfer__link {
         width: 40px;
         height: 40px;  
@@ -31,7 +23,22 @@
     .content-main__heading {
         font-size: 1.8rem;
     }
+    .content-main__img img{
+        height: 500px;
+    }
 }
+@media (max-width: 1024px) and (min-width: 723px) {
+    .app-tablet__search  {
+        margin-left: 80px;
+    }
+}
+  
 @media (max-width: 724px) {
-    
+    .firt-part__wrap {
+        margin: 0 10px;
+    }
+    .content-main__header-text {
+        font-size: 3rem;
+    }
+   
 }

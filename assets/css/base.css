@@ -22,6 +22,9 @@ html {
     border-radius: 10px;
     cursor: pointer;
 }
+.btn:hover {
+    background-color: #e26989;
+}
 .btn-icon {
     margin-left: 3px;
     position: relative;
@@ -33,6 +36,9 @@ html {
     border-radius: 10px;
     cursor: pointer;
     color: var(--text-color);
+}
+.btn-add:hover {
+    background-color: #c8c2cd;
 }
 .btn-add-icon {
     margin: auto;
